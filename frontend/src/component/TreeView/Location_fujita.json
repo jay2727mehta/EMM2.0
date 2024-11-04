@@ -1,0 +1,342 @@
+{
+    "Site": {
+        "Name": "Fujita",
+        "Facilities": [
+            {
+                "Name": "Building 1",
+                "Floors": [
+                    {
+                        "Floor_Number": "Ground Floor",
+                        "Location": [
+                            {
+                                "Name" : "Ground Temperature Overview"
+                            },
+                            {
+                                "Name" : "Ground Energy Overview"
+                            },
+                            {
+                                "Name": "Processing Machine Room"
+                            },
+                            {
+                                "Name": "Upper atrium"
+                            },
+                            {
+                                "Name": "Lounge"
+                            },
+                            {
+                                "Name": "Outdoor Stage"
+                            },
+                            {
+                                "Name": "Reception"
+                            },
+                            {
+                                "Name": "Room 100"
+                            },
+                            {
+                                "Name": "Room 101"
+                            },
+                            {
+                                "Name": "Room 102"
+                            },
+                            {
+                                "Name": "Room 103"
+                            },
+                            {
+                                "Name": "Room 105"
+                            },
+                            {
+                                "Name": "Room 106"
+                            },
+                            {
+                                "Name": "Room 107"
+                            },
+                            {
+                                "Name": "Room 108"
+                            },
+                            {
+                                "Name": "Room 109"
+                            },
+                            {
+                                "Name": "Room 110"
+                            }
+                        ]
+                    },
+                    {
+                        "Floor_Number": "2",
+                        "Location": [
+                            {
+                                "Name": "Room 201"
+                            },
+                            {
+                                "Name": "Room 202"
+                            },
+                            {
+                                "Name": "Room 203"
+                            },
+                            {
+                                "Name": "Room 204"
+                            },
+                            {
+                                "Name": "Room 205"
+                            },
+                            {
+                                "Name": "Room 206"
+                            },
+                            {
+                                "Name": "Room 207"
+                            },
+                            {
+                                "Name": "Room 209"
+                            },
+                            {
+                                "Name": "Room 210"
+                            },
+                            {
+                                "Name": "Room 211"
+                            },
+                            {
+                                "Name": "Room 212"
+                            },
+                            {
+                                "Name": "Room 213"
+                            },
+                            {
+                                "Name": "Room 215"
+                            },
+                            {
+                                "Name": "Room 216"
+                            },
+                            {
+                                "Name": "Room 217"
+                            },
+                            {
+                                "Name": "Blow"
+                            },
+                            {
+                                "Name": "Room 221"
+                            },
+                            {
+                                "Name": "Room 222"
+                            },
+                            {
+                                "Name": "Room 223"
+                            },
+                            {
+                                "Name": "Room 225"
+                            },
+                            {
+                                "Name": "Room 226"
+                            },
+                            {
+                                "Name": "Room 227"
+                            },
+                            {
+                                "Name": "Room 228"
+                            },
+                            {
+                                "Name": "Room 229"
+                            },
+                            {
+                                "Name": "Room 230"
+                            },
+                            {
+                                "Name": "Room 231"
+                            },
+                            {
+                                "Name": "Room 232"
+                            },
+                            {
+                                "Name": "Room 233"
+                            },
+                            {
+                                "Name": "Room 235"
+                            },
+                            {
+                                "Name": "Room 236"
+                            },
+                            {
+                                "Name": "Room 237"
+                            },
+                            {
+                                "Name": "Room 238"
+                            },
+                            {
+                                "Name": "Room 239"
+                            },
+                            {
+                                "Name": "Room 240"
+                            },
+                            {
+                                "Name": "Room 241"
+                            },
+                            {
+                                "Name": "Room 242"
+                            },
+                            {
+                                "Name": "Room 243"
+                            },
+                            {
+                                "Name": "Room 245"
+                            },
+                            {
+                                "Name": "Room 246"
+                            },
+                            {
+                                "Name": "Room 247"
+                            },
+                            {
+                                "Name": "Room 248"
+                            },
+                            {
+                                "Name": "Room 249"
+                            },
+                            {
+                                "Name": "Room 250"
+                            },
+                            {
+                                "Name": "Room 251"
+                            }
+                        ]
+                    },
+                    {
+                        "Floor_Number": "3",
+                        "Location": [
+                            {
+                                "Name": "Room 301"
+                            },
+                            {
+                                "Name": "Room 302"
+                            },
+                            {
+                                "Name": "Room 303"
+                            },
+                            {
+                                "Name": "Room 305"
+                            },
+                            {
+                                "Name": "Room 306"
+                            },
+                            {
+                                "Name": "Room 307"
+                            },
+                            {
+                                "Name": "Room 308"
+                            },
+                            {
+                                "Name": "Room 309"
+                            },
+                            {
+                                "Name": "Room 310"
+                            },
+                            {
+                                "Name": "Room 311"
+                            },
+                            {
+                                "Name": "Room 312"
+                            },
+                            {
+                                "Name": "Room 313"
+                            },
+                            {
+                                "Name": "Room 315"
+                            },
+                            {
+                                "Name": "Room 316"
+                            },
+                            {
+                                "Name": "Room 317"
+                            },
+                            {
+                                "Name": "Room 318"
+                            },
+                            {
+                                "Name": "Room 321"
+                            },
+                            {
+                                "Name": "Room 322"
+                            },
+                            {
+                                "Name": "Room 323"
+                            },
+                            {
+                                "Name": "Room 325"
+                            },
+                            {
+                                "Name": "Room 326"
+                            },
+                            {
+                                "Name": "Room 327"
+                            },
+                            {
+                                "Name": "Room 328"
+                            },
+                            {
+                                "Name": "Room 329"
+                            },
+                            {
+                                "Name": "Room 330"
+                            },
+                            {
+                                "Name": "Room 331"
+                            },
+                            {
+                                "Name": "Room 332"
+                            },
+                            {
+                                "Name": "Room 333"
+                            },
+                            {
+                                "Name": "Room 335"
+                            },
+                            {
+                                "Name": "Room 336"
+                            },
+                            {
+                                "Name": "Room 337"
+                            },
+                            {
+                                "Name": "Room 338"
+                            },
+                            {
+                                "Name": "Room 339"
+                            },
+                            {
+                                "Name": "Room 340"
+                            },
+                            {
+                                "Name": "Room 341"
+                            },
+                            {
+                                "Name": "Room 342"
+                            },
+                            {
+                                "Name": "Room 343"
+                            },
+                            {
+                                "Name": "Room 345"
+                            },
+                            {
+                                "Name": "Room 346"
+                            },
+                            {
+                                "Name": "Room 347"
+                            },
+                            {
+                                "Name": "Room 348"
+                            },
+                            {
+                                "Name": "Room 349"
+                            },
+                            {
+                                "Name": "Room 350"
+                            },
+                            {
+                                "Name": "Room 351"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}

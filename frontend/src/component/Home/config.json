@@ -1,0 +1,11 @@
+{
+  "labels": [
+    { "id": 0, "label": "Parking Area", "value": "Parking Area" },
+    { "id": 1, "label": "Overall Building Usage", "value": "Overall Building Usage" },
+    { "id": 2, "label": "Cafeteria Area", "value": "Cafeteria Area" },
+    { "id": 3, "label": "Generator Details", "value": "Generator Details" },
+    { "id": 4, "label": "All Lifts Status", "value": "All Lifts Status" },
+    { "id": 5, "label": "Control Systems", "value": "Control Systems" },
+    { "id": 6, "label": "Solar Panel", "value": "Solar Panel" }
+  ]
+}

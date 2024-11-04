@@ -1,0 +1,66 @@
+/* App.css */
+.list-item {
+  transition: background-color 0.3s ease;
+}
+
+/* .list-item.selected {
+  background-color: #ffffff;
+  color: black;
+  font-weight: bold;
+  justify-content: center;
+  margin: auto;
+  width: 200px;
+  border-radius: 8px;
+} */
+
+.list-button {
+  transition: background-color 0.3s ease;
+}
+
+.list-button.selected {
+  color: #4b48b1;
+  font-weight: bold;
+}
+
+.list {
+  justify-content: center;
+  margin: auto;
+}
+
+.selected .MuiListItemText-root {
+  font-weight: bold;
+}
+
+.selected .list-button {
+  font-weight: bold;
+}
+
+
+@keyframes slideIn {
+  from {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    /* transform: translateX(-100%); */
+  }
+  to {
+    opacity: 1;
+    /* transform: translateY(0); */
+  }
+}
+
+/* @keyframes fadeInOut {
+} */
+/* Hide scrollbar for all browsers */
+/* body {
+  overflow: hidden;
+} */

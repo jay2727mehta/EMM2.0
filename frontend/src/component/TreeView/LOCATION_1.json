@@ -1,0 +1,275 @@
+ {
+    "Site":{
+        "Name":"Neilsoft",
+        "Facilities":[
+            {
+                "Name":"Admin Building",
+                "Floors": [
+                    {
+                        "Floor_Number":"Parking",
+                        "Location":[
+                            {
+                                "Name":"Admin Parking"
+                            }
+                        ] 
+                    },
+                    {
+                        "Floor_Number":"Ground",
+                        "Location":[
+                            {
+                                "Name":"Admin Block LT Panel"
+                            },
+                            {
+                                "Name":"Admin Block Lighting Panel"
+                            },
+                            {
+                                "Name":"Admin Block Lift Panel"
+                            },
+                            {
+                                "Name":"Admin Block Emergency Lighting Panel"
+                            }
+                        ]
+                    },
+                    {
+                        "Floor_Number":"2",
+                        "Location":[
+                            {
+                                "Name":"Floor 2"
+                            }
+                        ]
+                    },
+                    {
+                        "Floor_Number":"3",
+                        "Location":[
+                            {
+                                "Name":"Floor 3"
+                            }
+                        ]
+                    },
+                    {
+                        "Floor_Number":"4",
+                        "Location":[
+                            {
+                                "Name":"Floor 4"
+                            }
+                        ]
+                    },
+                    {
+                        "Floor_Number":"5",
+                        "Location":[
+                            {
+                                "Name":"Floor 5"
+                            }
+                        ]
+                    },
+                    {
+                        "Floor_Number":"6",
+                        "Location":[
+                            {
+                                "Name":"Floor 6"
+                            }
+                        ]
+                    },
+                    {
+                        "Floor_Number":"7",
+                        "Location":[
+                            {
+                                "Name":"Floor 7"
+                            }
+                        ]
+                    },
+                    {
+                        "Floor_Number":"8",
+                        "Location":[
+                            {
+                                "Name":"Floor 8"
+                            }
+                        ]
+                    },
+                    {
+                        "Floor_Number":"9",
+                        "Location":[
+                            {
+                                "Name":"Floor 9"
+                            }
+                        ]
+                    },
+                    {
+                        "Floor_Number":"Admin Terrace",
+                        "Location":[
+                            {
+                                "Name":"Solar Panels"
+                            },
+                            {
+                                "Name":"AD HVOC 1"
+                            },
+                            {
+                                "Name":"AD HVOC 2"
+                            }
+                        ]
+                    }
+                ]
+            },{
+                "Name":"Operation Building",
+                "Floors": [
+                    {
+                        "Floor_Number":"Parking 2",
+                        "Location":[
+                            {
+                                "Name":"EV Two Wheel Charging Station"
+                            },
+                            {
+                                "Name":"Pump Room"
+                            }
+                        ] 
+                    },
+                    {
+                        "Floor_Number":"Ground",
+                        "Location":[
+                            {
+                                "Name":"Ground Floor BMS Room"
+                            },
+                            {
+                                "Name":"Ground Floor UPS Room"
+                            },
+                            {
+                                "Name":"Operation Block Lift Panel"
+                            },
+                            {
+                                "Name":"Operation Block Emergency Lighting Panel"
+                            },
+                            {
+                                "Name":"EV Four Wheel Charging Station"
+                            },                      
+                            {
+                                "Name":"DG"
+                            }
+                        ]
+                    },
+                    {
+                        "Floor_Number":"1",
+                        "Location":[
+                            {
+                                "Name":"Cafeteria"
+                            },
+                            {
+                                "Name":"Ball Room"
+                            }
+                        ]
+                    },
+                    {
+                        "Floor_Number":"2",
+                        "Location":[
+                            {
+                                "Name":"Second Floor ELV Room"
+                            },
+                            {
+                                "Name":"IOT Lab"
+                            },
+                            {
+                                "Name":"Vision System"
+                            }
+                        ]
+                    },
+                    {
+                        "Floor_Number":"3",
+                        "Location":[
+                            {
+                                "Name":"Third Floor ELV Room"
+                            },
+                            {
+                                "Name":"Third Floor Server Room"
+                            },
+                            {
+                                "Name":"Third Floor Workspace"
+                            }
+                        ]
+                    },
+                    {
+                        "Floor_Number":"4",
+                        "Location":[
+                            {
+                                "Name":"Fourth Floor ELV Room"
+                            },
+                            {
+                                "Name":"Fourth Floor Workspace"
+                            }
+                        ]
+                    },
+                    {
+                        "Floor_Number":"5",
+                        "Location":[
+                            {
+                                "Name":"Fifth Floor ELV Room"
+                            },
+                            {
+                                "Name":"Fifth Floor Workspace"
+                            }
+                        ]
+                    },
+                    {
+                        "Floor_Number":"6",
+                        "Location":[
+                            {
+                                "Name":"Sixth Floor ELV Room"
+                            },
+                            {
+                                "Name":"Sixth Floor Workspace"
+                            }
+                        ]
+                    },
+                    {
+                        "Floor_Number":"7",
+                        "Location":[
+                            {
+                                "Name":"Seventh Floor ELV Room"
+                            },
+                            {
+                                "Name":"Seventh Floor Workspace"
+                            }
+                        ]
+                    },
+                    {
+                        "Floor_Number":"8",
+                        "Location":[
+                            {
+                                "Name":"Eight Floor ELV Room"
+                            },
+                            {
+                                "Name":"Eight Floor Workspace"
+                            }
+                        ]
+                    },
+                    {
+                        "Floor_Number":"Operation Terrace",
+                        "Location":[
+                            {
+                                "Name":"Solar Panels"
+                            },
+                            {
+                                "Name":"OP HVOC 1"
+                            },
+                            {
+                                "Name":"OP HVOC 2"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "Name":"Director Block",
+                "Floors":[
+                    {
+                        "Floor_Number":"Director Block",
+                        "Location":[
+                            {
+                                "Name":"Director Block Panel"
+                            }
+                            
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}

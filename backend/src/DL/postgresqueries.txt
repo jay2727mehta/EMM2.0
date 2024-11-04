@@ -1,0 +1,82 @@
+SELECT temp_update();
+run in any table query tool 
+first run this then below
+
+run this code all below 
+WITH diffs AS (
+    SELECT 
+        timestamp,
+        admin_lift - lag(admin_lift) OVER (ORDER BY timestamp) AS admin_lift_diff,
+        operations_lift - lag(operations_lift) OVER (ORDER BY timestamp) AS operations_lift_diff,
+        director_block - lag(director_block) OVER (ORDER BY timestamp) AS director_block_diff,
+        admin_emergency_lighting - lag(admin_emergency_lighting) OVER (ORDER BY timestamp) AS admin_emergency_lighting_diff,
+        emergency_lighting - lag(emergency_lighting) OVER (ORDER BY timestamp) AS emergency_lighting_diff,
+        hvac_odu_op_two - lag(hvac_odu_op_two) OVER (ORDER BY timestamp) AS hvac_odu_op_two_diff,
+        hvac_lighting_sub - lag(hvac_lighting_sub) OVER (ORDER BY timestamp) AS hvac_lighting_sub_diff,
+        lt_main - lag(lt_main) OVER (ORDER BY timestamp) AS lt_main_diff,
+        main_lt_phe_db - lag(main_lt_phe_db) OVER (ORDER BY timestamp) AS main_lt_phe_db_diff,
+        common_phe - lag(common_phe) OVER (ORDER BY timestamp) AS common_phe_diff,
+        admin_ac - lag(admin_ac) OVER (ORDER BY timestamp) AS admin_ac_diff,
+        hvac_odu_op_one - lag(hvac_odu_op_one) OVER (ORDER BY timestamp) AS hvac_odu_op_one_diff
+    FROM 
+        public.energy_consumed
+    WHERE
+        date(timestamp) BETWEEN DATE '2024-01-31' AND DATE '2024-02-15'
+)
+UPDATE public.energy_consumed AS ec
+SET 
+    admin_lift_abs = subquery1.admin_lift_diff,
+    operations_lift_abs = subquery2.operations_lift_diff,
+    director_block_abs = subquery3.director_block_diff,
+    admin_emergency_lighting_abs = subquery4.admin_emergency_lighting_diff,
+    emergency_lighting_abs = subquery5.emergency_lighting_diff,
+    hvac_odu_op_two_abs = subquery6.hvac_odu_op_two_diff,
+    hvac_lighting_sub_abs = subquery7.hvac_lighting_sub_diff,
+    lt_main_abs = subquery8.lt_main_diff,
+    main_lt_phe_db_abs = subquery9.main_lt_phe_db_diff,
+    common_phe_abs = subquery10.common_phe_diff,
+    admin_ac_abs = subquery11.admin_ac_diff,
+    hvac_odu_op_one_abs = subquery13.hvac_odu_op_one_diff
+FROM 
+    diffs AS subquery1
+JOIN
+    diffs AS subquery2 ON subquery1.timestamp = subquery2.timestamp
+JOIN
+    diffs AS subquery3 ON subquery1.timestamp = subquery3.timestamp
+JOIN
+    diffs AS subquery4 ON subquery1.timestamp = subquery4.timestamp
+JOIN
+    diffs AS subquery5 ON subquery1.timestamp = subquery5.timestamp
+JOIN
+    diffs AS subquery6 ON subquery1.timestamp = subquery6.timestamp
+JOIN
+    diffs AS subquery7 ON subquery1.timestamp = subquery7.timestamp
+JOIN
+    diffs AS subquery8 ON subquery1.timestamp = subquery8.timestamp
+JOIN
+    diffs AS subquery9 ON subquery1.timestamp = subquery9.timestamp
+JOIN
+    diffs AS subquery10 ON subquery1.timestamp = subquery10.timestamp
+JOIN
+    diffs AS subquery11 ON subquery1.timestamp = subquery11.timestamp
+JOIN
+    diffs AS subquery13 ON subquery1.timestamp = subquery13.timestamp
+WHERE
+    ec.timestamp = subquery1.timestamp;
+
+
+
+solar Excel 
+surylog
+then tabular view
+plant
+30 days data 
+check for parameter if all their or not if not select select parameter
+then click checkbox that we need 
+solar power,Day gen,Total gen,cuf on ac capacity
+save preferences 
+select date from to 
+15 feb to 16 feb 
+xlsl
+see last excel data and then copy next data to that excel 
+and extend SI no 
